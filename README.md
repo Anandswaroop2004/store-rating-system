@@ -6,7 +6,7 @@ Built strictly in accordance with the **FullStack Intern Coding Challenge - V1.1
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 1. [Project Overview](#-project-overview)
 2. [Technology Stack](#-technology-stack)
 3. [Key Features by Role](#-key-features-by-role)
@@ -22,7 +22,7 @@ Built strictly in accordance with the **FullStack Intern Coding Challenge - V1.1
 
 ---
 
-## 🌟 Project Overview
+##  Project Overview
 
 The **Store Rating Management System** is a full-stack platform that enables users to discover registered stores and submit verified ratings from 1 to 5 stars. It implements a unified authentication gateway where users with different privileges are redirected to their specialized portals:
 - **System Administrator (Anand Swaroop Shrivastava):** Oversees platform metrics, registers new stores, and manages user accounts.
@@ -31,7 +31,7 @@ The **Store Rating Management System** is a full-stack platform that enables use
 
 ---
 
-## 💻 Technology Stack
+##  Technology Stack
 
 | Layer | Technology | Purpose |
 |---|---|---|
@@ -47,7 +47,7 @@ The **Store Rating Management System** is a full-stack platform that enables use
 
 ---
 
-## 🎯 Key Features by Role
+##  Key Features by Role
 
 ### 1. System Administrator
 - **Real-Time Analytics Dashboard:** Displays live counts of:
@@ -92,7 +92,7 @@ The **Store Rating Management System** is a full-stack platform that enables use
 
 ---
 
-## 🛡️ Form Validation Rules
+##  Form Validation Rules
 
 Implemented on **both Frontend and Backend** (never trusting frontend alone):
 
@@ -106,7 +106,7 @@ Implemented on **both Frontend and Backend** (never trusting frontend alone):
 
 ---
 
-## 📁 Project Folder Structure
+##  Project Folder Structure
 
 ```
 store-rating-system/
@@ -165,7 +165,7 @@ store-rating-system/
 
 ---
 
-## 🗄️ Database Schema (MySQL)
+##  Database Schema (MySQL)
 
 ### 1. `users` Table
 Stores user accounts for all three roles (`admin`, `user`, `owner`):
@@ -222,7 +222,7 @@ CREATE TABLE ratings (
 
 ---
 
-## ⚙️ Environment Configuration
+##  Environment Configuration
 
 ### Backend (`store-rating-system/backend/.env`)
 ```env
@@ -238,7 +238,7 @@ JWT_EXPIRES_IN=24h
 
 ---
 
-## 🚀 Setup and Installation Guide
+##  Setup and Installation Guide
 
 ### Prerequisites
 - **Node.js**: v18.0.0 or higher (Tested on Node v26.4.0)
@@ -267,7 +267,7 @@ Open your browser at: **`http://localhost:5000`**
 
 ---
 
-## 🔑 Pre-Seeded Indian Demo Accounts (Testing)
+##  Pre-Seeded Indian Demo Accounts (Testing)
 
 The database includes ready-to-use Indian accounts with valid passwords matching all security rules (8–16 chars, 1 uppercase, 1 special character).
 
@@ -281,7 +281,7 @@ The database includes ready-to-use Indian accounts with valid passwords matching
 
 ---
 
-## 📡 RESTful API Endpoints
+##  RESTful API Endpoints
 
 ### Authentication (`/api/auth`)
 - `POST /api/auth/register` - Normal user registration
@@ -307,7 +307,7 @@ The database includes ready-to-use Indian accounts with valid passwords matching
 
 ---
 
-## 🧪 Running the Automated Verification Test Suite
+##  Running the Automated Verification Test Suite
 
 An end-to-end verification test suite has been provided in `backend/test-suite.js`. It performs 27 automated assertions verifying all requirements:
 ```bash
